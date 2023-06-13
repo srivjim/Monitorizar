@@ -40,4 +40,5 @@ volumes:
   data_kapacitor:
   kapacitor.conf:
   telegraf.conf:
+  /var/run/docker.sock:/var/run/docker.sock:
     
